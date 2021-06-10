@@ -1,0 +1,509 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul, li{
+    text-decoration: none;
+    color: darkgrey;
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.pole{
+    margin-top: 2%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pole1{
+    font-size: 130%;
+}
+
+input.pole2{
+    font-size: 130%;
+    height: 200px;
+}
+
+
+.e{
+    margin-top: 30%;
+}
+
+header{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+label{
+    font-size: 170%;
+}
+
+.header_right{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+}
+
+.l{
+    padding: 3%;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.ll{
+    padding: 3%;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.lll{
+    padding: 3%;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+li{
+    font-size: 125%;
+}
+
+li:hover{
+    transition: 0.3s;
+    box-shadow: 0 5px #222;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.search{
+    font-size: 200%;
+}
+
+.serch{
+    font-size: 200%;
+    background-color: #1a1a1a;
+    color: darkgrey;
+    cursor: pointer;
+}
+
+.fon{
+    background:url("/frontend/web/img/fon.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: darkgrey;
+    width: 25%;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: darkgrey;
+    width: 25%;
+    height: 100px;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.ces{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgrey;
+    padding: 1%;
+    margin-top: 2%;
+    width: 40%;
+}
+
+.ce{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 1%;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+}
+
+.vacancy{
+    width: 200px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    background-color: darkgrey;
+}
+
+.button {
+    font-size: 100%;
+    background-color: #1a1a1a;
+    color: darkgrey;
+    border: none;
+    padding: 1%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover {
+    background-color: black;
+    text-decoration: none;
+    color: #95999c;
+}
+.button:active {
+    background: #1a1a1a;
+    box-shadow: 0 3px darkslategray inset;
+}
+
+.button1 {
+    font-size: 100%;
+    margin-left: 30%;
+    background-color: #1a1a1a;
+    color: darkgrey;
+    border: none;
+    padding: 2%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: black;
+}
+.button1:active {
+    background: #1a1a1a;
+    box-shadow: 0 3px darkslategray inset;
+}
+
+.button3 {
+    font-size: 100%;
+    background-color: #1a1a1a;
+    color: darkgrey;
+    border: none;
+    padding: 1%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    text-align: center;
+}
+.button3:hover {
+    background-color: black;
+}
+.button3:active {
+    background: #1a1a1a;
+    box-shadow: 0 3px darkslategray inset;
+}
+
+.search {
+    width: 35%;
+    position: relative;
+}
+
+.button4 {
+    background-color: #222;
+    color: darkgrey;
+    border: none;
+    padding: 2%;
+    cursor: pointer;
+
+}
+.button4:hover {
+    color: white;
+}
+.button4:active {
+    background: #1a1a1a;
+    box-shadow: 0 3px darkslategray inset;
+}
+
+.btn-link{
+    margin-top: 3%;
+    font-size: 100%;
+
+}
+
+.search input {
+    border: none;
+}
+
+.search .input {
+    width: 100%;
+    padding: 8px 37px 9px 15px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    background: #EEE;
+    font: 13px Tahoma, Arial, sans-serif;
+    color: #555;
+    outline: none;
+}
+
+/* меняем оформление поля ввода при фокусе */
+.search .input:focus {
+    box-shadow: inset 0 0 5px, inset 0 1px 2px;
+    background: #E8E8E8;
+    color: #1a1a1a;
+}
+
+.search .submit {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 37px;
+    height: 100%;
+    cursor: pointer;
+    background: url(/frontend/web/img/go.png) 50% no-repeat;
+    opacity: 0.5;
+    outline: none;
+}
+
+.search .submit:hover {
+    opacity: 1;
+}
+
+.serch{
+    font-size: 200%;
+    background-color: #1a1a1a;
+    color: darkgrey;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 2% 2%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf7f7;
+    word-break:break-all;
+}
+
+.cards{
+    width: 100%;
+}
+
+.site-signup{
+    padding: 5%;
+}
+
+.site-login{
+    padding: 5%;
+}
+
+.vacancy-index{
+    width: 80%;
+    margin: 5% auto 0 auto;
+}
+
+.row0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.site-profilestudent{
+    margin-top: 5%;
+}
+
+.textarea {
+    width:100%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+    outline:none;
+    background-color: #faf7f7;
+}
+
+.textarea2 {
+    width:100%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+    min-height: 15em;
+    outline:none;
+    background-color: #faf7f7;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    color: #1a1a1a;
+    width: 100%;
+    height: 5%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #faf7f7;
+    word-break:break-all;
+}
+
+.vacancy-create{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.vacancy-update{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.vacancy-view{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tehpod-default-index{
+    background:url("/frontend/web/img/tehfon.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+}
+
+.tehtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+}
+
+.chatwrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30%;
+}
+
+#chat {
+    height: 80vh;
+    padding: 1% 2%;
+    border: 1px solid black;
+}
+
+.mesto-index{
+    margin-left: 10%;
+    margin-right: 10%;
+}
